@@ -1,0 +1,51 @@
+nav {
+    display : flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #100620;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#logo {
+    width: 9rem;
+    object-fit: contain;
+}
+
+#user-profile-pic {
+    object-fit: contain;
+    width: 3.5rem;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-profile p {
+    display: inline-block;
+    color: white;
+    font-size: 0.6rem;
+}
+
+.user-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name p {
+    margin: 0;
+}
+
+.user-name p span{
+    color: rgb(161, 161, 255);
+}
